@@ -1,14 +1,15 @@
-HTTP/1.1 301 Moved Permanently
-Location: https://sumanyumuku.me/paper_redirect/file_redirect.html
-Content-Type: text/html
-Content-Length: 174
-
-<html>
-<head>
-<title>Moved</title>
-</head>
-<body>
-<h1>Moved</h1>
-<p>This page has moved <a href="http://www.google.com/">here</a>.</p>
-</body>
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="0; url=http://google.com">
+        <script type="text/javascript">
+            window.location.href = "http://google.com"
+        </script>
+        <title>Page Redirection</title>
+    </head>
+    <body>
+        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
+        If you are not redirected automatically, follow this <a href='http://google.com'>link to example</a>.
+    </body>
 </html>
